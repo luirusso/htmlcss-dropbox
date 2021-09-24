@@ -137,7 +137,7 @@ button a {
 }
 
 .middle {
-    margin: 0px 60px;
+    margin: 0px 68px;
 }
 
 .taligncenter {
@@ -154,6 +154,12 @@ button a {
 .colrow {
     padding: 0 20px;
     font-size: 13px;
+}
+
+.colbig {
+    width: 100%;
+    border: 1px solid lightgrey;
+    line-height: 35px;
 }
 
 .monthlyfee {
@@ -174,6 +180,12 @@ main hr {
 .checklist {
     color: #0061FF;
     font-size: 18px;
+}
+
+.col .btn-blue {
+    margin: 25px 0;
+    text-align: center;
+    width: 100%;
 }
 /* MAIN CONTENT */
 .col1-jumbo {
