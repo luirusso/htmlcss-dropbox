@@ -1,5 +1,38 @@
+/* GENERAL STYLES */
 * {
  padding: 0;
  margin: 0;
  box-sizing: border-box;
+}
+
+header {
+    line-height: 50px;
+    background-color: lightskyblue;
+    height: 200px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+/* UTILITIES */
+.float {
+    float: left;
+}
+
+.floatright {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* MAIN CONTENT */
+header-col1,
+header-col2 {
+    width: 50%;
+    margin: 0 auto;
 }
