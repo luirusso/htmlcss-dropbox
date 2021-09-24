@@ -42,6 +42,11 @@ header img {
 h1 {
     font-size: 78px;
 }
+
+label:hover {
+    cursor: pointer;
+}
+
 /* UTILITIES */
 .fixed {
     position: fixed;
