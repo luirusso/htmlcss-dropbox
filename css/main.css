@@ -9,10 +9,14 @@
 header {
     line-height: 88px;
     background-color: white;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
 }
 
 header li a {
-    text-decoration: none;
     color: black;
 }
 
@@ -31,6 +35,9 @@ header img {
     vertical-align: sub;
 }
 
+h1 {
+    font-size: 78px;
+}
 /* UTILITIES */
 .fixed {
     position: fixed;
@@ -39,11 +46,14 @@ header img {
 
 .btn-blue {
     padding: 0 20px;
-    height: 33px;
+    height: 35px;
     background-color: #0061FF;
-    color: white;
     font-size: 15px;
     border: none;
+}
+
+button a {
+    color: white;
 }
 
 .float {
@@ -72,13 +82,24 @@ header img {
     background-color: #B4D0E7;
 }
 
+.jumbo {
+    position: relative;
+    bottom: -100px;
+    height: 750px;
+}
+
 .container-big {
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
+}
+
+.paddingtop-50px {
+    padding-top: 50px;
 }
 /* MAIN CONTENT */
 .col1-jumbo {
     width: 40%;
+    padding-right: 90px;
 }
 
 .col2-jumbo {
