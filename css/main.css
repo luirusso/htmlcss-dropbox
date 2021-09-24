@@ -105,13 +105,25 @@ button a {
     bottom: -65px;
 }
 
-.paddingtop-50px {
-    padding-top: 50px;
+.container-small {
+    width: 60%;
+    margin: 0 auto;
 }
+
+.middle {
+    margin: 0px 60px;
+}
+/* BUSINESS PLAN COLUMNS */
+.col {
+    width: 29%;
+    text-align: center;
+    border: 1px solid black;
+}
+
 /* MAIN CONTENT */
 .col1-jumbo {
     width: 40%;
-    padding-right: 90px;
+    padding-right: 50px;
 }
 
 .col2-jumbo {
