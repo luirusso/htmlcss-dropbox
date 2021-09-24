@@ -166,6 +166,15 @@ button a {
     padding-top: 25px;
 }
 
+main hr {
+    width: 17%;
+    margin: 25px 0;
+}
+
+.checklist {
+    color: #0061FF;
+    font-size: 18px;
+}
 /* MAIN CONTENT */
 .col1-jumbo {
     width: 40%;
