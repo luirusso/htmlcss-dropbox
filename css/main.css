@@ -7,9 +7,8 @@
 }
 
 header {
-    line-height: 90px;
-    height: 200px;
-    height: 91px;
+    line-height: 88px;
+    background-color: white;
 }
 
 header li a {
@@ -25,10 +24,7 @@ header ul li {
     display: inline-block;
     padding: 0 25px;
     font-weight: 500;
-}
-
-.hoverbottom:hover {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid transparent;
 }
 
 header img {
@@ -64,8 +60,20 @@ header img {
     clear: both;
 }
 
-.bottomhighlight {
-    transition: ;
+.hoverbottom:hover {
+    border-bottom: 3px solid black;
 }
 
+.paddingtop-100px {
+    padding-top: 100px;
+}
+
+.fullwidthsection {
+    background-color: #B4D0E7;
+}
+
+.container-big {
+    width: 80%;
+    margin: 0 auto;
+}
 /* MAIN CONTENT */
