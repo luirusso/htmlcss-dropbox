@@ -106,17 +106,21 @@ button a {
 }
 
 .container-small {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
 }
 
 .middle {
     margin: 0px 60px;
 }
+
+.taligncenter {
+    text-align: center;
+}
+
 /* BUSINESS PLAN COLUMNS */
 .col {
     width: 29%;
-    text-align: center;
     border: 1px solid black;
 }
 
