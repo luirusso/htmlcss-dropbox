@@ -7,7 +7,7 @@
 }
 
 header {
-    line-height: 88px;
+    line-height: 75px;
     background-color: white;
     z-index: 1;
 }
@@ -96,13 +96,13 @@ button a {
 
 .jumbo {
     position: relative;
-    bottom: -100px;
-    height: 750px;
 }
 
 .container-big {
     width: 70%;
     margin: 0 auto;
+    position: relative;
+    bottom: -65px;
 }
 
 .paddingtop-50px {
