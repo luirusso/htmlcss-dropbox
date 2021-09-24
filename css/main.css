@@ -10,12 +10,15 @@ header {
     line-height: 90px;
     height: 200px;
     height: 91px;
-    background-color: lightskyblue;
 }
 
-header a {
+header li a {
     text-decoration: none;
     color: black;
+}
+
+header li button a {
+    color: white;
 }
 
 header ul li {
@@ -24,11 +27,20 @@ header ul li {
     font-weight: 500;
 }
 
+.hoverbottom:hover {
+    border-bottom: 3px solid black;
+}
+
 header img {
     vertical-align: sub;
 }
 
 /* UTILITIES */
+.fixed {
+    position: fixed;
+    width: 100vw;
+}
+
 .btn-blue {
     padding: 0 20px;
     height: 33px;
@@ -52,9 +64,8 @@ header img {
     clear: both;
 }
 
-/* MAIN CONTENT */
-header-col1,
-header-col2 {
-    width: 50%;
-    margin: 0 auto;
+.bottomhighlight {
+    transition: ;
 }
+
+/* MAIN CONTENT */
