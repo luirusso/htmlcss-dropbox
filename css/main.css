@@ -3,16 +3,29 @@
  padding: 0;
  margin: 0;
  box-sizing: border-box;
+ font-family: 'Open Sans', sans-serif;
 }
 
 header {
-    line-height: 50px;
-    background-color: lightskyblue;
+    line-height: 90px;
     height: 200px;
+    height: 91px;
+    background-color: lightskyblue;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
 }
 
 header ul li {
     display: inline-block;
+    padding: 0 25px;
+    font-weight: 500;
+}
+
+header img {
+    vertical-align: sub;
 }
 
 /* UTILITIES */
