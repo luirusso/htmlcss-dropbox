@@ -29,6 +29,15 @@ header img {
 }
 
 /* UTILITIES */
+.btn-blue {
+    padding: 0 20px;
+    height: 33px;
+    background-color: #0061FF;
+    color: white;
+    font-size: 15px;
+    border: none;
+}
+
 .float {
     float: left;
 }
