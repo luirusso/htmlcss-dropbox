@@ -120,6 +120,10 @@ button a {
     position: relative;
 }
 
+.fa-arrow-down {
+    font-size: 50px;
+}
+
 .container-big {
     width: 70%;
     margin: 0 auto;
@@ -128,7 +132,7 @@ button a {
 }
 
 .container-small {
-    width: 50%;
+    width: 55%;
     margin: 0 auto;
 }
 
@@ -144,7 +148,22 @@ button a {
 .col {
     width: 29%;
     border: 1px solid lightgrey;
-    line-height: 40px;
+    line-height: 35px;
+}
+
+.colrow {
+    padding: 0 20px;
+    font-size: 13px;
+}
+
+.monthlyfee {
+    color: gray;
+    padding-bottom: 25px;
+}
+
+.businessplan {
+    font-size: 23px;
+    padding-top: 25px;
 }
 
 /* MAIN CONTENT */
@@ -161,6 +180,3 @@ button a {
     max-width: 100%;
 }
 
-.fas {
-    font-size: 50px;
-}
