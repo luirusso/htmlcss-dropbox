@@ -78,6 +78,18 @@ button a {
     padding-top: 100px;
 }
 
+.paddingtop-50px {
+    padding-top: 50px;
+}
+
+.paddingbottom-10px {
+    padding-bottom: 10px;
+}
+
+.paddingbottom-30px {
+    padding-bottom: 30px;
+}
+
 .fullwidthsection {
     background-color: #B4D0E7;
 }
@@ -108,4 +120,8 @@ button a {
 
 .col2-jumbo img {
     max-width: 100%;
+}
+
+.fas {
+    font-size: 50px;
 }
