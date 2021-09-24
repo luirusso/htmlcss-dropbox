@@ -77,3 +77,14 @@ header img {
     margin: 0 auto;
 }
 /* MAIN CONTENT */
+.col1-jumbo {
+    width: 40%;
+}
+
+.col2-jumbo {
+    width: 60%;
+}
+
+.col2-jumbo img {
+    max-width: 100%;
+}
