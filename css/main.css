@@ -277,9 +277,18 @@ main hr {
 }
 
 /* FLOATING PARTNERS BOXES */
+.container-partners {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.partnersection {
+    background-color: #F5F5F5;
+}
+
 .partnersbox {
-    height: 220px;
-    width: 220px;
+    height: 300px;
+    width: 300px;
 }
 
 .b1 {
@@ -314,16 +323,25 @@ main hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 65%;
+    width: 50%;
     filter: invert(1);
 }
 
 .boxdiv {
-    height: 440px;
-    width: 440px;
+    width: 35%;
 }
 
 .mid-partners-box {
-    background-color: grey;
     height: 440px;
+    width: 30%;
+    padding: 40px 0;
+}
+
+.mid-partners-box img {
+    width: 30%;
+}
+
+.mid-partners-box hr {
+    margin: 50px 0;
+    width: 20%;
 }
