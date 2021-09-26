@@ -67,6 +67,11 @@ label:hover {
     color: black;
 }
 
+.bluelink {
+    color: #2477FF;
+    text-decoration: underline;
+}
+
 .btn-blue {
     padding: 0 20px;
     height: 35px;
@@ -176,6 +181,10 @@ button a {
 
 .taligncenter {
     text-align: center;
+}
+
+.bigtext-container {
+    width: 54%;
 }
 
 /* BUSINESS PLAN COLUMNS */
