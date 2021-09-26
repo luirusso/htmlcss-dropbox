@@ -90,11 +90,23 @@ label:hover {
     border: 1px solid black;
 }
 
+.btn-freetrial {
+    padding: 0 55px;
+    height: 35px;
+    background-color: white;
+    font-size: 15px;
+    border: none;
+}
+
 button a {
     color: white;
 }
 
 .btn-white a {
+    color: black;
+}
+
+.btn-freetrial a {
     color: black;
 }
 
@@ -110,6 +122,10 @@ button a {
     max-width: 100%;
 }
 
+.width-50 {
+    width: 50%;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -118,6 +134,10 @@ button a {
 
 .hoverbottom:hover {
     border-bottom: 3px solid black;
+}
+
+.paddingtop-10px {
+    padding-top: 10px;
 }
 
 .paddingtop-100px {
@@ -146,6 +166,10 @@ button a {
 
 .paddingbottom-50px {
     padding-bottom: 50px;
+}
+
+.paddingbottom-150px {
+    padding-bottom: 150px;
 }
 
 .paddingright-20px{
@@ -350,4 +374,18 @@ main hr {
 .mid-partners-box hr {
     margin: 50px 0;
     width: 20%;
+}
+
+/* LIGHTBLUE SECTION */
+.lightbluesection {
+    background-color: #B4D0E7;
+}
+
+.lightbluesection h2 {
+    color: #61082B;
+    padding-bottom: 0;
+}
+
+.container-small .freetrialbox {
+    width: 29%;
 }
