@@ -63,6 +63,10 @@ label:hover {
     width: 100vw;
 }
 
+.fixedheight {
+    height: 865px;
+}
+
 .arrowbutton a {
     text-decoration: none;
     color: black;
@@ -168,12 +172,20 @@ button a {
     padding-bottom: 50px;
 }
 
+.paddingbottom-100px {
+    padding-bottom: 100px;
+}
+
 .paddingbottom-150px {
     padding-bottom: 150px;
 }
 
 .paddingright-20px{
     padding-right: 20px;
+}
+
+.paddingright-15px {
+    padding-right: 15px;
 }
 
 .paddingleft-50px {
@@ -192,11 +204,16 @@ button a {
     font-size: 50px;
 }
 
-.container-big {
+.container-big-jumbo {
     width: 70%;
     margin: 0 auto;
     position: relative;
     bottom: -65px;
+}
+
+.container-big {
+    width: 70%;
+    margin: 0 auto;
 }
 
 .container-small {
@@ -397,4 +414,53 @@ main hr {
 
 .faq li {
     padding: 40px 0;
+}
+
+.fa-chevron-down:hover {
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    background-color: black;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+footer * {
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer h4 {
+    font-size: 22px;
+    padding-bottom: 22px;
+}
+
+footer .float {
+    width: 20%;
+}
+
+.footercol {
+    padding-bottom: 300px;
+}
+
+.language {
+    width: 10%;
+    color: grey;
+}
+
+.language * {
+    color: grey;
+}
+
+.language div:last-child {
+    padding: 50px 0;
+}
+
+.fa-caret-up:hover {
+    cursor: pointer;
 }
