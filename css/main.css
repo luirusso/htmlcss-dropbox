@@ -152,7 +152,7 @@ button a {
 }
 
 .colrow {
-    padding: 0 20px;
+    padding: 20px;
     font-size: 13px;
 }
 
@@ -187,6 +187,11 @@ main hr {
     text-align: center;
     width: 100%;
 }
+
+.line-height-90 {
+    line-height: 90px;
+}
+
 /* MAIN CONTENT */
 .col1-jumbo {
     width: 40%;
