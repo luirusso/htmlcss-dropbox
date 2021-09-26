@@ -389,3 +389,12 @@ main hr {
 .container-small .freetrialbox {
     width: 29%;
 }
+
+/* FAQ SECTION */
+.faq span {
+    padding-left: 330px;
+}
+
+.faq li {
+    padding: 40px 0;
+}
