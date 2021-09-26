@@ -257,6 +257,9 @@ main hr {
     width: 45%;
 }
 
+.positionrelative {
+    position: relative;
+}
 /* DROPBOX BUSINESS FLOATING SECTION */
 .col-noborder {
     width: 29%;
@@ -271,4 +274,31 @@ main hr {
 
 .col-noborder p {
     line-height: 20px;
+}
+
+/* FLOATING PARTNERS BOXES */
+.partnersbox {
+    height: 220px;
+    width: 220px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+.partnersbox img {
+    max-width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 65%;
+}
+
+.boxdiv {
+    height: 440px;
+    width: 440px;
+}
+
+.mid-partners-box {
+    background-color: grey;
+    height: 440px;
 }
