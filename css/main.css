@@ -25,6 +25,14 @@ ul {
     list-style: none;
 }
 
+button {
+    transition: box-shadow 0.4s linear;
+}
+
+button:hover {
+    box-shadow: 0 0px 15px grey;
+}
+
 header li a {
     color: black;
 }
@@ -134,6 +142,10 @@ button a {
     content: "";
     display: table;
     clear: both;
+}
+
+.hoverbottom {
+    transition: border 1s;
 }
 
 .hoverbottom:hover {
@@ -335,6 +347,12 @@ main hr {
 .partnersbox {
     height: 300px;
     width: 300px;
+    border: 15px solid transparent;
+    transition: border 1s linear;
+}
+
+.partnersbox:hover {
+    border: 15px solid rgba(255, 255, 255, 0.541);
 }
 
 .b1 {
