@@ -247,3 +247,18 @@ main hr {
 .partnerstext {
     width: 45%;
 }
+
+/* DROPBOX BUSINESS FLOATING SECTION */
+.col-noborder {
+    width: 29%;
+    line-height: 35px;
+}
+
+.tabletitle {
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+
+.col-noborder p {
+    line-height: 20px;
+}
