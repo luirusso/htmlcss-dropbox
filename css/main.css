@@ -64,10 +64,23 @@ label:hover {
     background-color: #0061FF;
     font-size: 15px;
     border: none;
+    color: white;
+}
+
+.btn-white {
+    padding: 0 20px;
+    height: 35px;
+    background-color: white;
+    font-size: 15px;
+    border: 1px solid black;
 }
 
 button a {
     color: white;
+}
+
+.btn-white a {
+    color: black;
 }
 
 .float {
@@ -76,6 +89,10 @@ button a {
 
 .floatright {
     float: right;
+}
+
+.maxwidth-100 {
+    max-width: 100%;
 }
 
 .clearfix::after {
@@ -110,6 +127,10 @@ button a {
 
 .paddingright-20px{
     padding-right: 20px;
+}
+
+.paddingleft-50px {
+    padding-left: 50px;
 }
 
 .fullwidthsection {
@@ -206,3 +227,10 @@ main hr {
     max-width: 100%;
 }
 
+.partners {
+    width: 55%;
+}
+
+.partnerstext {
+    width: 45%;
+}
