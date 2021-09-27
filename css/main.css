@@ -452,7 +452,7 @@ main hr {
 }
 
 .faqli:hover p,
-.faqli:hover .fa-angle-up {
+.faqli:hover .fa-chevron-up {
     display: inline-block;
 }
 
@@ -464,7 +464,7 @@ main hr {
     cursor: pointer;
 }
 
-.fa-angle-up {
+.fa-chevron-up {
     display: none;
 }
 
