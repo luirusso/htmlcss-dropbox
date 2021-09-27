@@ -387,7 +387,7 @@ main hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 50%;
+    width: 70%;
     filter: invert(1);
 }
 
