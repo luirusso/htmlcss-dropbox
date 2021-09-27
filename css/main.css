@@ -432,7 +432,11 @@ main hr {
 }
 
 .faq li {
-    padding: 40px 0;
+    /* padding: 40px 0; USE IF HR BREAKS */
+}
+
+.faq hr {
+    margin: 43px 0;
 }
 
 .fa-chevron-down:hover {
