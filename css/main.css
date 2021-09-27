@@ -431,16 +431,37 @@ main hr {
     padding-left: 330px;
 }
 
-.faq li {
-    /* padding: 40px 0; USE IF HR BREAKS */
-}
+/* .faq li {
+    padding: 40px 0; USE IF HR BREAKS
+} */
 
 .faq hr {
     margin: 43px 0;
 }
 
+.faq p {
+    padding-top: 20px;
+}
+
+.faqtext-hidden {
+    display: none;
+}
+
+.faqli:hover p,
+.faqli:hover .fa-angle-up {
+    display: inline-block;
+}
+
+.faqli:hover .fa-chevron-down {
+    display: none;
+}
+
 .fa-chevron-down:hover {
     cursor: pointer;
+}
+
+.fa-angle-up {
+    display: none;
 }
 
 /* FOOTER */
