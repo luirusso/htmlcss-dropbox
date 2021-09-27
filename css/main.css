@@ -443,6 +443,10 @@ main hr {
     padding-top: 20px;
 }
 
+.faq li:hover {
+    cursor: pointer;
+}
+
 .faqtext-hidden {
     display: none;
 }
