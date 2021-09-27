@@ -235,7 +235,7 @@ button a {
 }
 
 .middle {
-    margin: 0px 68px;
+    margin: 0 6%;
 }
 
 .taligncenter {
@@ -248,7 +248,7 @@ button a {
 
 /* BUSINESS PLAN COLUMNS */
 .col {
-    width: 29%;
+    width: calc(100% / 3 - 4%);
     border: 1px solid lightgrey;
     line-height: 35px;
 }
