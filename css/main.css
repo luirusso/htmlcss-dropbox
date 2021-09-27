@@ -153,6 +153,10 @@ button a {
     border-bottom: 3px solid black;
 }
 
+.padding-20px {
+    padding: 20px;
+}
+
 .paddingtop-10px {
     padding-top: 10px;
 }
@@ -230,7 +234,7 @@ button a {
 }
 
 .container-small {
-    width: 55%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -254,7 +258,6 @@ button a {
 }
 
 .colrow {
-    padding: 20px;
     font-size: 13px;
 }
 
@@ -262,6 +265,14 @@ button a {
     width: 100%;
     border: 1px solid lightgrey;
     line-height: 35px;
+}
+
+.coltitle {
+    font-size: 15px;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .monthlyfee {
