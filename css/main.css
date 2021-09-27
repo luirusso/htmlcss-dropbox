@@ -145,7 +145,7 @@ button a {
 }
 
 .hoverbottom {
-    transition: border 1s;
+    transition: border 0.4s;
 }
 
 .hoverbottom:hover {
@@ -348,7 +348,7 @@ main hr {
     height: 300px;
     width: 300px;
     border: 15px solid transparent;
-    transition: border 1s linear;
+    transition: border 0.4s linear;
 }
 
 .partnersbox:hover {
