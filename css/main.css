@@ -66,6 +66,25 @@ label:hover {
     cursor: pointer;
 }
 
+/* HEADER DROPDOWN MENU */
+
+.dropdownmenu {
+    display: none;
+    position: fixed;
+    background-color: white;
+    border: 1px solid lightgrey;
+    width: 12%;
+    font-size: 14px;
+    top: 9%;
+    right: 20%;
+    line-height: 33px;
+    padding: 15px 0;
+}
+
+.dropdownhover:hover + .dropdownmenu {
+    display: block;
+}
+
 /* UTILITIES */
 .fixed {
     position: fixed;
@@ -446,10 +465,6 @@ main hr {
 .faq span {
     padding-left: 330px;
 }
-
-/* .faq li {
-    padding: 40px 0; USE IF HR BREAKS
-} */
 
 .faq hr {
     margin: 43px 0;
